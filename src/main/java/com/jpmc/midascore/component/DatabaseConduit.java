@@ -16,4 +16,8 @@ public class DatabaseConduit {
         userRepository.save(userRecord);
     }
 
+    public UserRepository getUserRepository() {
+        return userRepository;
+    }
+
 }
